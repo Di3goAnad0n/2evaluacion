@@ -1,0 +1,23 @@
+#include<iostream>
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+//Este programa genera una matriz 3x3 rellena de
+//numeros enteros entre el 0 y el 9 con repeticion
+using namespace std;
+
+int main(){
+	long semillita;
+	int filas;
+	int*matriz[3];
+	//Reservo memoria para las filas
+	matriz[0]=(int *) malloc(3*sizeof(int));
+	matriz[1]=(int *) malloc(3*sizeof(int));
+	matriz[2]=(int *) malloc(3*sizeof(int));
+	semillita=time(0);
+	srand(semillita);
+	for(filas=0;filas<3;filas++){
+		for(col=0;col<3;col++)}
+	
+	return 0;
+}
